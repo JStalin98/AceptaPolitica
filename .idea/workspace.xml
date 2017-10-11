@@ -47,12 +47,11 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/jstalin/aceptapolitica/AceptaPolitica.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="257">
-              <caret line="37" column="33" selection-start-line="37" selection-start-column="33" selection-end-line="37" selection-end-column="33" />
+              <caret line="68" column="39" selection-start-line="68" selection-start-column="39" selection-end-line="68" selection-end-column="39" />
               <folding>
-                <element signature="e#652#797#0" expanded="true" />
-                <element signature="e#744#745#0" expanded="false" />
-                <element signature="e#786#787#0" expanded="false" />
-                <element signature="e#796#797#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#998#1234#0" expanded="true" />
+                <element signature="e#1233#1234#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -61,21 +60,8 @@
       <file leaf-file-name="activity_acepta_politica.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_acepta_politica.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="23" column="41" selection-start-line="0" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity_verifica.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_verifica.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="443">
-              <caret line="23" column="30" selection-start-line="0" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+            <state relative-caret-position="44">
+              <caret line="2" column="68" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="68" />
               <folding />
             </state>
           </provider>
@@ -87,16 +73,29 @@
       <file leaf-file-name="Verifica.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/jstalin/aceptapolitica/Verifica.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="515">
-              <caret line="60" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+            <state relative-caret-position="1760">
+              <caret line="80" column="45" selection-start-line="80" selection-start-column="45" selection-end-line="80" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#794#947#0" expanded="true" />
-                <element signature="e#946#947#0" expanded="true" />
-                <element signature="e#1057#1211#0" expanded="true" />
-                <element signature="e#1210#1211#0" expanded="true" />
+                <element signature="e#1273#1480#0" expanded="true" />
+                <element signature="e#1479#1480#0" expanded="true" />
+                <element signature="e#1868#2075#0" expanded="true" />
+                <element signature="e#2074#2075#0" expanded="true" />
               </folding>
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity_verifica.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_verifica.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-41">
+              <caret line="2" column="59" selection-start-line="2" selection-start-column="59" selection-end-line="2" selection-end-column="59" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer2">
+            <state />
           </provider>
         </entry>
       </file>
@@ -1936,17 +1935,18 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/jstalin/aceptapolitica/Verifica.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_acepta_politica.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_verifica.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/jstalin/aceptapolitica/AceptaPolitica.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/jstalin/aceptapolitica/Verifica.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="952" />
-    <option name="width" value="976" />
-    <option name="height" value="1038" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -2317,7 +2317,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="952" y="0" width="976" height="1038" extended-state="0" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -2382,10 +2382,9 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#652#797#0" expanded="true" />
-            <element signature="e#744#745#0" expanded="false" />
-            <element signature="e#786#787#0" expanded="false" />
-            <element signature="e#796#797#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#998#1234#0" expanded="true" />
+            <element signature="e#1233#1234#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2407,10 +2406,10 @@
           <caret line="41" column="55" selection-start-line="41" selection-start-column="55" selection-end-line="41" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#794#947#0" expanded="true" />
-            <element signature="e#946#947#0" expanded="true" />
-            <element signature="e#1057#1211#0" expanded="true" />
-            <element signature="e#1210#1211#0" expanded="true" />
+            <element signature="e#1273#1480#0" expanded="true" />
+            <element signature="e#1479#1480#0" expanded="true" />
+            <element signature="e#1868#2075#0" expanded="true" />
+            <element signature="e#2074#2075#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2431,10 +2430,9 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#652#797#0" expanded="true" />
-            <element signature="e#744#745#0" expanded="false" />
-            <element signature="e#786#787#0" expanded="false" />
-            <element signature="e#796#797#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#998#1234#0" expanded="true" />
+            <element signature="e#1233#1234#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2456,10 +2454,10 @@
           <caret line="41" column="55" selection-start-line="41" selection-start-column="55" selection-end-line="41" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#794#947#0" expanded="true" />
-            <element signature="e#946#947#0" expanded="true" />
-            <element signature="e#1057#1211#0" expanded="true" />
-            <element signature="e#1210#1211#0" expanded="true" />
+            <element signature="e#1273#1480#0" expanded="true" />
+            <element signature="e#1479#1480#0" expanded="true" />
+            <element signature="e#1868#2075#0" expanded="true" />
+            <element signature="e#2074#2075#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2480,32 +2478,17 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#652#797#0" expanded="true" />
-            <element signature="e#744#745#0" expanded="false" />
-            <element signature="e#786#787#0" expanded="false" />
-            <element signature="e#796#797#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/jstalin/aceptapolitica/Verifica.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="515">
-          <caret line="60" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
-          <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#794#947#0" expanded="true" />
-            <element signature="e#946#947#0" expanded="true" />
-            <element signature="e#1057#1211#0" expanded="true" />
-            <element signature="e#1210#1211#0" expanded="true" />
+            <element signature="e#998#1234#0" expanded="true" />
+            <element signature="e#1233#1234#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_acepta_politica.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="23" column="41" selection-start-line="0" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+        <state relative-caret-position="44">
+          <caret line="2" column="68" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="68" />
           <folding />
         </state>
       </provider>
@@ -2515,8 +2498,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_verifica.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="23" column="30" selection-start-line="0" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+        <state relative-caret-position="-41">
+          <caret line="2" column="59" selection-start-line="2" selection-start-column="59" selection-end-line="2" selection-end-column="59" />
           <folding />
         </state>
       </provider>
@@ -2524,15 +2507,28 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/jstalin/aceptapolitica/Verifica.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1760">
+          <caret line="80" column="45" selection-start-line="80" selection-start-column="45" selection-end-line="80" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1273#1480#0" expanded="true" />
+            <element signature="e#1479#1480#0" expanded="true" />
+            <element signature="e#1868#2075#0" expanded="true" />
+            <element signature="e#2074#2075#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/jstalin/aceptapolitica/AceptaPolitica.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="257">
-          <caret line="37" column="33" selection-start-line="37" selection-start-column="33" selection-end-line="37" selection-end-column="33" />
+          <caret line="68" column="39" selection-start-line="68" selection-start-column="39" selection-end-line="68" selection-end-column="39" />
           <folding>
-            <element signature="e#652#797#0" expanded="true" />
-            <element signature="e#744#745#0" expanded="false" />
-            <element signature="e#786#787#0" expanded="false" />
-            <element signature="e#796#797#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#998#1234#0" expanded="true" />
+            <element signature="e#1233#1234#0" expanded="true" />
           </folding>
         </state>
       </provider>
