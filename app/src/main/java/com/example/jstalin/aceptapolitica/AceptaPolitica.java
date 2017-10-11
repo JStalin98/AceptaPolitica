@@ -9,13 +9,14 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 public class AceptaPolitica extends AppCompatActivity {
-    private Bundle bundle = getIntent().getExtras();
+    private final static int CODIGO = 0;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_acepta_politica);
 
-        Button btVerifica = (Button)findViewById(R.id.btVerificar);
+        Button btVerifica = (Button) findViewById(R.id.btVerificar);
         btVerifica.setOnClickListener(new View.OnClickListener() {
 
             @Override
@@ -24,26 +25,37 @@ public class AceptaPolitica extends AppCompatActivity {
             }
         });
 
-        TextView tvResultado = (TextView)findViewById(R.id.tvResultado);
 
-        if(bundle.getBoolean("AR")){
-            tvResultado.setText("Aceptado");
-        }else if (bundle.getBoolean("AR")==false) {
-            tvResultado.setText("Rechazado");
-        }
+        Intent intent = getIntent();
+        Bundle bundle = intent.getExtras();
+
     }
 
 
     private void verifica() {
 
-        EditText etNombre = (EditText)findViewById(R.id.etNombre);
+        EditText etNombre = (EditText) findViewById(R.id.etNombre);
         String nombre = etNombre.getText().toString();
         Intent intent = new Intent(this, Verifica.class);
         Bundle bundle = new Bundle();
         bundle.putString("NOMBRE", nombre);
         intent.putExtras(bundle);
-        startActivity(intent);
+        startActivityForResult(intent, CODIGO);
 
     }
+
+    protected void onActivityResult(int requestCode, int resultCode,
+                                    Intent data) {
+        TextView tvResultado = (TextView) findViewById(R.id.tvResultado);
+        if (requestCode == CODIGO && resultCode == RESULT_OK) {
+            if (data.getExtras().getBoolean("AR")) {
+                tvResultado.setText("Aceptado");
+            } else {
+                tvResultado.setText("Rechazado");
+            }
+        }
+
+    }
+
 
 }

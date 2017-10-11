@@ -11,20 +11,24 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Tu nombre: " />
+
     <EditText
         android:id="@+id/etNombre"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="NOMBRE" />
+        android:hint="NOMBRE" />
+
     <Button
         android:id="@+id/btVerificar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="VERIFICAR" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Resultado: " />
+
     <TextView
         android:id="@+id/tvResultado"
         android:layout_width="wrap_content"

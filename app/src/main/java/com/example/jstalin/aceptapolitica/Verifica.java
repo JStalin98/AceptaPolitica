@@ -8,16 +8,18 @@ import android.widget.Button;
 import android.widget.TextView;
 
 public class Verifica extends AppCompatActivity {
-    private Bundle bundle = getIntent().getExtras();
+    // private
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_verifica);
 
-        TextView tvInfo = (TextView)findViewById(R.id.tvInfo);
-        tvInfo.setText("Hola " + bundle.getString("NOMBRE") +" ¿Aceptas la politica de privacidad?");
+        Bundle bundle = getIntent().getExtras();
 
-        Button btAceptar = (Button)findViewById(R.id.btAceptar);
+        TextView tvInfo = (TextView) findViewById(R.id.tvInfo);
+        tvInfo.setText("Hola " + bundle.getString("NOMBRE") + " ¿Aceptas la politica de privacidad?");
+
+        Button btAceptar = (Button) findViewById(R.id.btAceptar);
         btAceptar.setOnClickListener(new View.OnClickListener() {
 
             @Override
@@ -26,7 +28,7 @@ public class Verifica extends AppCompatActivity {
             }
         });
 
-        Button btRechazar = (Button)findViewById(R.id.btRechazar);
+        Button btRechazar = (Button) findViewById(R.id.btRechazar);
         btRechazar.setOnClickListener(new View.OnClickListener() {
 
             @Override
@@ -37,24 +39,27 @@ public class Verifica extends AppCompatActivity {
         });
     }
 
-    public void enviarResultado(View v){
-        Boolean b = null;
-        Intent intent = new Intent(this, AceptaPolitica.class);
-        Bundle bundle = new Bundle();
+    public void enviarResultado(View v) {
+        Intent intent = new Intent();
 
-        if(v.getId()==R.id.btAceptar){
-            b = true;
-            bundle.putBoolean("AR", b);
-        }else if(v.getId()==R.id.btRechazar){
-            b = true;
-            bundle.putBoolean("AR", b);
-        }else{
-            bundle.putBoolean("AR", b);
+
+        switch (v.getId()) {
+            case R.id.btAceptar:
+                intent.putExtra("AR", true);
+
+                break;
+            case R.id.btRechazar:
+                intent.putExtra("AR", false);
+
+                break;
+
+
         }
-        intent.putExtras(bundle);
-        startActivity(intent);
-    }
+        setResult(RESULT_OK, intent);
+        finish();
 
+
+    }
 
 
 }
